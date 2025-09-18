@@ -1,0 +1,51 @@
+.topbar {
+  background: var(--dark);
+  color: white;
+  padding: 8px 20px;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topbar-left {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.topbar-left .tagline {
+  font-style: italic;
+  color: #ddd;
+}
+
+.topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.topbar-right a {
+  color: white;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.topbar-right a:hover {
+  color: var(--accent);
+}
+
+.btn-small {
+  background: var(--accent);
+  color: white;
+  padding: 5px 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-small:hover {
+  background: #ff3366;
+}
